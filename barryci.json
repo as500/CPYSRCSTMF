@@ -1,14 +1,14 @@
 {
   "build": [{
     "command": "gmake",
-    "args": ["BIN_LIB=MIGRATE&branch-short"]
+    "args": ["BIN_LIB=cpysrcstmf&branch-short"]
   }],
   "release": {
     "do_build": false,
     "post_commands": [
       {
         "command": "gmake",
-        "args": ["BIN_LIB=MIGRATE"]
+        "args": ["BIN_LIB=cpysrcstmf"]
       }
     ]
   }

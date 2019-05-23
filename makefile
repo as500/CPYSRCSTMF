@@ -1,11 +1,11 @@
 DBGVIEW=*NONE
-BIN_LIB=MIGRATE
+BIN_LIB=cpysrcstmf 
 
-# Makefile for migrate project
+# Makefile for cpysrcstmf project
 
-all: $(BIN_LIB).lib migsrcpf.pgm migsrcpf.cmd
+all: $(BIN_LIB).lib cpysrcstmf.pgm cpysrcstmf.cmd
 
-migsrcpf.pgm: migsrcpf.rpgle member.rpgle utils.sqlrpgle
+cpysrcstmf.pgm: cpysrcstmf.rpgle member.rpgle utils.sqlrpgle
 
 %.lib:
 	-system -q "CRTLIB $*"

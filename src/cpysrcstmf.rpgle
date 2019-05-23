@@ -3,7 +3,7 @@
         /INCLUDE './headers/std.rpgle'
         /INCLUDE './headers/member.rpgle'
         
-        Dcl-Pi MIGSRCPF;
+        Dcl-Pi CVTSRCMBR;
           pLibrary Char(10);
           pSRCPF   Char(10);
           pOutDir  Char(128);

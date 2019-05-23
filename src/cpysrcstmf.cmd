@@ -1,4 +1,4 @@
-             CMD        Prompt('Migrate Source PF')
+             CMD        Prompt('Convert Source Member')
              
              PARM       KWD(LIBRARY)  TYPE(*CHAR) LEN(10) +
                         PROMPT('Source Library')
